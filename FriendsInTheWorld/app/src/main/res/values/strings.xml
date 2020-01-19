@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //english
+    <string name="changeEnglish">Language changed to English</string>
+    <string name="app_name">FriendsInTheWorld</string>
+    <string name="my_group_activity">My Group Activity</string>
+    <string name="all_groups_activity">All Groups Activity</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="swedish">Swedish</string>
+    <string name="english" tools:ignore="ExtraTranslation">English</string>
+    <string name="home" tools:ignore="DuplicateDefinition">Showing Home</string>
+    <string name="map">Showing Map</string>
+    <string name="mygroup">Showing Your Group</string>
+    <string name="allgroup">Showing All Groups</string>
+    <string name="your_position" tools:ignore="ExtraTranslation">Your Position</string>
+    <string name="show_map">Show Map</string>
+    <string name="show_mygroup">My Group</string>
+    <string name="show_allgroup">All Groups</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="group_name">Group Name</string>
+    <string name="members">Members</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="hello">Hello,&#160;</string>
+    <string name="regTo">You are registered to group &#160;</string>
+    <string name="createNew">Create new or register to a group!</string>
+    <string name="send_my_location">Send my location</string>
+    <string name="add_a_new_group">Add a new group</string>
+    <string name="add_group">Add Group</string>
+    <string name="leave_group">Leave Group</string>
+
+    //login english
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="welcome">Welcome to FriendsInTheWorld App!</string>
+    <string name="john">John</string>
+    <string name="login">Login</string>
+
+
+    //swedish
+    <string name="changeSwedish">Språk ändras till svenska</string>
+    <string name="app_name2">FriendsInTheWorld</string>
+    <string name="my_group_activity2">My Group Activity</string>
+    <string name="all_groups_activity2">All Groups Activity</string>
+    <string name="title_activity_maps2">Kartor</string>
+    <string name="swedish2">Svenska</string>
+    <string name="english2">Engelska</string>
+    <string name="home2">Visar hem</string>
+    <string name="map2">Visar karta</string>
+    <string name="mygroup2">Visar din grupp</string>
+    <string name="allgroup2">Visar alla grupper</string>
+    <string name="your_position2">Din position</string>
+    <string name="show_map2">Visa karta</string>
+    <string name="show_mygroup2">Min Grupp</string>
+    <string name="show_allgroup2">Alla Grupper</string>
+    <string name="connect2">Ansluta</string>
+    <string name="disconnect2">Koppla från</string>
+    <string name="group_name2">Grupp namn</string>
+    <string name="members2">Medlemmar</string>
+    <string name="name2">Namn</string>
+    <string name="register2">Registrera</string>
+    <string name="hello2">Hej,&#160;</string>
+    <string name="regTo2">Du är registrerad i gruppen &#160;</string>
+    <string name="createNew2">Skapa ny eller registrera dig i en grupp!</string>
+    <string name="send_my_location2">Skicka min plats</string>
+    <string name="add_a_new_group2">Lägg till en ny grupp</string>
+    <string name="add_group2">Lägg till grupp</string>
+    <string name="leave_group2">Lämna Gruppen</string>
+
+
+
+</resources>

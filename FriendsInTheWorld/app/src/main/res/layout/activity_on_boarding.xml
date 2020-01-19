@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.OnBoardingActivity"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:src="@mipmap/friendslogo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/anton"
+            android:text="@string/welcome"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/what_s_your_name"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:ems="10"
+            android:hint="@string/john"
+            android:textColorHint="@color/colorBackground"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|bottom"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorAccent"
+                android:drawableEnd="@drawable/ic_next"
+                android:drawableTint="@android:color/white"
+                android:paddingLeft="20dp"
+                android:text="Finish"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:drawableRight="@drawable/ic_next"
+                android:layout_gravity="start" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

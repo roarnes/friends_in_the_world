@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AllGroupsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:text="@string/add_a_new_group"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inputGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/group_name"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/buttonaddGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_group"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/group_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="5dp"/>
+
+    <ListView
+        android:id="@+id/lvAllGroups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
